@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registerbg"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please register to login."
+        android:layout_marginLeft="40dp"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/input_username1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:padding="10dp"
+        android:drawablePadding="5dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/input_email1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+        android:padding="10dp"
+        android:drawablePadding="5dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/input_pass1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/rectangle1"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:elevation="12dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:layout_marginLeft="70dp"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/signin_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sign In"
+        android:textColor="@color/darkprimary"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-25dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
