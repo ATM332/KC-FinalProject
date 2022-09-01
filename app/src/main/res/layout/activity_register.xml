@@ -84,7 +84,8 @@
         android:layout_marginTop="20dp"/>
 
 
-    <Button
+    <TextView
+        android:id="@+id/registeruser"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -117,5 +118,24 @@
         android:layout_marginLeft="270dp"
         android:layout_marginTop="-25dp"
         android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:elevation="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-310dp"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:elevation="30dp"
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
 
 </LinearLayout>

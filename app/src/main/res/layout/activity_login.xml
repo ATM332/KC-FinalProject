@@ -31,13 +31,13 @@
         android:textSize="17dp"/>
 
     <EditText
-        android:id="@+id/input_username2"
+        android:id="@+id/input_email2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="Email"
         android:background="@drawable/round_button3"
         android:textColorHint="@color/white"
-        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
         android:padding="10dp"
         android:drawablePadding="5dp"
         android:elevation="12dp"
