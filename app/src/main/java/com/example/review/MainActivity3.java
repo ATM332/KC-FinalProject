@@ -7,9 +7,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity3 extends AppCompatActivity {
 
     Button loginbttn, registerbttn;
+
+    FirebaseUser firebaseUser;
+
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        //redirect if user is not null
+        if(firebaseUser != null){
+            startActivity(new Intent(MainActivity3.this, HomeActivity.class));
+            finish();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +38,12 @@ public class MainActivity3 extends AppCompatActivity {
         loginbttn = findViewById(R.id.loginbtn);
         registerbttn= findViewById(R.id.registerbtn);
 
+
         loginbttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent3 = new Intent(MainActivity3.this ,LoginActivity.class);
+                Intent intent3 = new Intent(MainActivity3.this ,Login.class);
                 startActivity(intent3);
 
 
@@ -34,7 +54,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent4 = new Intent(MainActivity3.this, RegisterActivity.class);
+                Intent intent4 = new Intent(MainActivity3.this, Register.class);
                 startActivity(intent4);
             }
         });

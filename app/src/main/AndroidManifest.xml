@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.review">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +17,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Review"
         tools:targetApi="31">
+        <activity
+            android:name=".VoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".ImagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DescripitionBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".DescripitionPublic"
+            android:exported="false" />
+        <activity
+            android:name=".Descripition"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
@@ -37,6 +74,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.AppCompat" />
 
         <meta-data
             android:name="preloaded_fonts"

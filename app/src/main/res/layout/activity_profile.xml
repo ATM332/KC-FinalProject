@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/darkprimary"
     tools:context=".ProfileActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_9" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/profile"
+        android:elevation="20dp"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/change_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/round_button"
+        android:padding="5dp"
+        android:text="Change Profile Image"
+        android:textSize="16sp" />
+
+
+    //username
+
+    <TextView
+        android:id="@+id/usernametitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:text="Username"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/output_username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@color/primarycolor" />
+
+    //email
+
+    <TextView
+        android:id="@+id/emailtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:text="Email"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/output_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/primarycolor" />
+
+
+    //password
+
+    <TextView
+        android:id="@+id/passwordtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        android:text="Password"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/output_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="@color/primarycolor" />
+
+    //bio
+
+    <EditText
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="490dp"
+        android:text="Bio"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/input_bio"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="530dp"
+        android:backgroundTint="@color/primarycolor" />
+
+    <Button
+        android:id="@+id/savebttn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button_round2"
+        android:elevation="12dp"
+        android:padding="10dp"
+        android:text="Save Profile"
+        android:textColor="#616161" />
+
+
+
+
+</RelativeLayout>

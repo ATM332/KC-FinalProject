@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/purplegradient"
+    tools:context=".Fragments.AddFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/reviewlogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Please choose where you would like to post your next Review...!"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"/>
+
+
+    <TextView
+        android:id="@+id/private_revbttn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Private Reviews"
+        android:background="@drawable/roundshape"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:drawableRight="@drawable/ic_lock"/>
+
+
+
+    <TextView
+        android:id="@+id/public_revbttn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Public Reviews"
+        android:background="@drawable/roundshape"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:drawableRight="@drawable/ic_baseline_people_alt_24"/>
+
+    <TextView
+        android:id="@+id/business_revbttn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Business Reviews"
+        android:background="@drawable/roundshape"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:drawableRight="@drawable/ic_baseline_work_24"/>
+
+
+
+
+</LinearLayout>

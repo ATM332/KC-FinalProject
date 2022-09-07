@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Register">
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registerbg"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please register to login."
+        android:layout_marginLeft="40dp"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/usernamereg"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/fullnamereg"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button3"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+        android:drawablePadding="5dp"
+        android:elevation="12dp"
+        android:fontFamily="@font/arimo"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/passwordreg"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/round_button3"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:elevation="12dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/register_bttn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/rectangle1"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:elevation="5dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/arimo"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:layout_marginLeft="70dp"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/signin_bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sign In"
+        android:textColor="@color/darkprimary"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-25dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:elevation="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-310dp"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:elevation="30dp"
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

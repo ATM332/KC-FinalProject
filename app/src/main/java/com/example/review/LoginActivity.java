@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                     if(user.isEmailVerified()) {
                         //redirect to user profile
-                        startActivity(new Intent(LoginActivity.this, ProfileActivity.class));
+                        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                     }else{
                         user.sendEmailVerification();
                         Toast.makeText(LoginActivity.this, "Check your email to verify your account", Toast.LENGTH_LONG).show();

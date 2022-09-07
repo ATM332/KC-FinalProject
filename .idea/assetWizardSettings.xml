@@ -24,7 +24,19 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\AWRAD\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\AWRAD\AppData\Local\Temp\baseline_dehaze_24.xml" />
+                                                <entry key="opacityPercent" value="60" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="clipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/dehaze/baseline_dehaze_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -52,6 +64,12 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="ic_options" />
+                                      <entry key="themeColor" value="ffffff" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -278,6 +296,11 @@
                             </entry>
                           </map>
                         </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="ACTIONBAR" />
+                          </map>
+                        </option>
                       </PersistentState>
                     </value>
                   </entry>
@@ -301,7 +324,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/alternate_email/baseline_alternate_email_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/bookmark/baseline_bookmark_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -312,7 +335,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_baseline_alternate_email_24" />
+                            <entry key="outputName" value="ic_baseline_bookmark_24" />
                             <entry key="sourceFile" value="C:\Users\AWRAD\Documents\GitHub\KC-FinalProject" />
                           </map>
                         </option>

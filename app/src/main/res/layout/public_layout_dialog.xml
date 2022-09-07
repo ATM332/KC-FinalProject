@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming Soon...!"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="200dp"
+                android:id="@+id/gif"
+                android:layout_height="200dp"
+                android:background="@drawable/rating" />
+
+            <TextView
+                android:id="@+id/reviewtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public Review"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/revdescripiton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This type of review can be shared to everyone and anyone! public reviews can be used for special events and places to."
+                android:layout_marginLeft="2dp"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

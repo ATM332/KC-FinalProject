@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/purplegradient"
+    tools:context=".Descripition">
+
+
+    <TextView
+        android:id="@+id/reviewtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Review"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/revdescripiton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="This type of review can be shared among your friends, family, and followers only!"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to post?"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/howtorev"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="23dp"
+        android:text="1.Choose an display image" />
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="23dp"
+        android:text="2.Name your post" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="23dp"
+        android:text="3.Lastly Add your question to your review!" />
+
+
+    <ImageButton
+        android:id="@+id/privatenextbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/roundshape"
+        android:padding="15dp"
+        android:elevation="15dp"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+
+
+
+
+</LinearLayout>

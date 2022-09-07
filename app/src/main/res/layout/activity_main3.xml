@@ -12,6 +12,7 @@
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="-25dp"
         android:background="@drawable/review_animation"/>
 
     <TextView
@@ -56,7 +57,7 @@
             android:layout_width="140dp"
             android:layout_height="50dp"
             android:layout_marginLeft="-20dp"
-            android:background="@drawable/button_round2"
+            android:background="@drawable/round_button"
             android:elevation="10dp"
             android:padding="5dp"
             android:text="Login"

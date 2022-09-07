@@ -11,4 +11,5 @@
     <color name="darkprimary">#6954BD</color>
     <color name="accent">#6954BD</color>
     <color name="error">#E85C59</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>

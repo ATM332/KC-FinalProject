@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button" />
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/round_button"
+        android:padding="10dp"
+        android:text="Choose Image"
+        android:textColor="#776B6B" />
+
+    <EditText
+        android:id="@+id/ET_file_name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:hint="Enter Post name"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:text="What would you like to post about?"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/input_questions"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:hint="First question..."
+        android:textAlignment="textStart"
+        android:textSize="17dp" />
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="650dp" />
+
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/button_round2"
+        android:padding="10dp"
+        android:text="upload"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/uploadnextbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/button_round2"
+        android:elevation="15dp"
+        android:padding="15dp"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+</RelativeLayout>
